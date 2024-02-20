@@ -10,7 +10,8 @@ class SignacSatBase {
     String dataToEncript = data.replaceAll(RegExp(r'[^0-9]'), '');
     final parser = RSAKeyParser();
     final privateKey = parser.parse(_cert) as RSAPrivateKey;
-    final signer = Signer(RSASigner(RSASignDigest.SHA256, privateKey: privateKey));
+    final signer =
+        Signer(RSASigner(RSASignDigest.SHA256, privateKey: privateKey));
     return (signer.sign(dataToEncript).base64);
   }
 }
