@@ -1,12 +1,12 @@
 name: signac_sat
 description: Package para a criação da assinatura SignAC para equipamentos SAT
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/brasizza/signac_sat-package-dart
 false_secrets:
   - /example/signac_sat_example.dart
   - /test/signac_sat_test.dart
 environment:
-  sdk: ^3.2.3
+  sdk: ^3.0.5
 
 
 
