@@ -1,0 +1,17 @@
+name: signac_sat
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+repository: https://github.com/brasizza/signac_sat-package-dart
+
+environment:
+  sdk: ^3.2.3
+
+# Add regular dependencies here.
+dependencies:
+  encrypt: ^5.0.3
+  pointycastle: ^3.7.4
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
